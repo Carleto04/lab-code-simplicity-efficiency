@@ -26,8 +26,10 @@ a = input('Please choose your first number (zero to five): ')
 b = input('What do you want to do? plus or minus: ')
 c = input('Please choose your second number (zero to five): ')
 
+#create a dictionary with all the values allows the programmer to iterate easily with a simpler and shorter code
 num_dct = {'zero': 0, 'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5}
 
+#other conditions were met already, the only one that matters is the operand
 if b == 'plus':
     print(num_dct[a] + num_dct[c])
 elif b == 'minus':
@@ -36,3 +38,7 @@ else:
     print("I am not able to answer this question. Check your input.")
 
 print("Thanks for using this calculator, goodbye :)")
+
+
+
+
